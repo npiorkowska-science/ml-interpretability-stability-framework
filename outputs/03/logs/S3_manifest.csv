@@ -1,0 +1,16 @@
+type,path
+table,/content/results/S3_benchmark_summary/tables/fold_metrics_summary_by_variant_model.csv
+table,/content/results/S3_benchmark_summary/tables/oof_calibration_curve.csv
+table,/content/results/S3_benchmark_summary/tables/oof_calibration_summary.csv
+table,/content/results/S3_benchmark_summary/tables/oof_dca_curves.csv
+table,/content/results/S3_benchmark_summary/tables/winner_oof_metrics_with_bootstrap_ci.csv
+figure,/content/results/S3_benchmark_summary/figures/boxplot_auc.png
+figure,/content/results/S3_benchmark_summary/figures/boxplot_auprc.png
+figure,/content/results/S3_benchmark_summary/figures/boxplot_brier.png
+figure,/content/results/S3_benchmark_summary/figures/oof_pr_BIOMARKERS_RF.png
+figure,/content/results/S3_benchmark_summary/figures/oof_pr_CLINICAL_RF.png
+figure,/content/results/S3_benchmark_summary/figures/oof_pr_FULL_RF.png
+figure,/content/results/S3_benchmark_summary/figures/oof_roc_BIOMARKERS_RF.png
+figure,/content/results/S3_benchmark_summary/figures/oof_roc_CLINICAL_RF.png
+figure,/content/results/S3_benchmark_summary/figures/oof_roc_FULL_RF.png
+log,/content/results/S3_benchmark_summary/logs/schema_detection.json

@@ -1,0 +1,20 @@
+{
+  "s2_dir": "/content",
+  "out_root": "/content/results/S3_benchmark_summary",
+  "tables_dir": "/content/results/S3_benchmark_summary/tables",
+  "figures_dir": "/content/results/S3_benchmark_summary/figures",
+  "results_schema": {
+    "variant": "variant",
+    "model": "model",
+    "fold": "outer_fold",
+    "auc": "roc_auc",
+    "auprc": "auprc",
+    "brier": "brier"
+  },
+  "oof_schema": {
+    "variant": "variant",
+    "model": "model",
+    "y_true": "y_true",
+    "y_prob": "y_prob"
+  }
+}
