@@ -1,0 +1,42 @@
+{
+  "random_state": 42,
+  "inputs": {
+    "nestedcv_results_all_variants.csv": "/content/nestedcv_results_all_variants.csv",
+    "winner_model_by_variant.csv": "/content/winner_model_by_variant.csv",
+    "winner_oof_metrics_with_bootstrap_ci.csv": "/content/winner_oof_metrics_with_bootstrap_ci.csv",
+    "oof_calibration_summary.csv": "/content/oof_calibration_summary.csv",
+    "oof_dca_curves.csv": "/content/oof_dca_curves.csv",
+    "package_versions.json": "/content/package_versions.json",
+    "features_used_{VAR}.csv": {
+      "FULL": 69,
+      "CLINICAL": 58,
+      "BIOMARKERS": 10
+    }
+  },
+  "outputs": {
+    "S5_tradeoff_table_with_winner.csv": "/content/results/S5_tradeoff/tables/S5_tradeoff_table_with_winner.csv",
+    "S5_winner_outerfold_summary.csv": "/content/results/S5_tradeoff/tables/S5_winner_outerfold_summary.csv",
+    "S5_auc_vs_nfeatures.png": "/content/results/S5_tradeoff/figures/S5_auc_vs_nfeatures.png",
+    "S5_dca_mean_curves.csv": "/content/results/S5_tradeoff/tables/S5_dca_mean_curves.csv",
+    "S5_dca_mean_curves_0_0.5.png": "/content/results/S5_tradeoff/figures/S5_dca_mean_curves_0_0.5.png",
+    "S5_calibration_summary_winners.csv": "/content/results/S5_tradeoff/tables/S5_calibration_summary_winners.csv",
+    "S5_package_versions.csv": "/content/results/S5_tradeoff/tables/S5_package_versions.csv"
+  },
+  "plot_settings": {
+    "tradeoff_x": "n_features",
+    "tradeoff_y": "oof_roc_auc",
+    "ci_low": null,
+    "ci_high": null,
+    "errorbars_plotted": false,
+    "dca_threshold_range": [
+      0.0,
+      0.5
+    ]
+  },
+  "notes": [
+    "Trade-off computed for winner models per variant.",
+    "Trade-off plot uses a single consistent point estimator (prefer OOF AUC if available).",
+    "Uncertainty bars are only plotted when compatible with chosen estimator.",
+    "Optional DCA/calibration exports depend on availability of S4 artifacts."
+  ]
+}
