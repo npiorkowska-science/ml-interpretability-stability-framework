@@ -1,0 +1,6 @@
+package,version
+numpy,2.0.2
+pandas,2.2.2
+python,"3.12.12 (main, Oct 10 2025, 08:52:57) [GCC 11.4.0]"
+scikit_learn,1.6.1
+timestamp_utc,2026-02-19T13:44:19.961920+00:00
