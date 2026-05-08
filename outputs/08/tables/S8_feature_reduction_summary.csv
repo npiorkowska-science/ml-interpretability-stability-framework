@@ -1,0 +1,4 @@
+variant,n_governed_present,n_recoded_binary,n_dropped_empty_or_constant,n_used_matrix,n_removed_total
+BIOMARKERS,10,0,0,10,0
+CLINICAL,58,20,16,42,16
+FULL,69,20,16,53,16
