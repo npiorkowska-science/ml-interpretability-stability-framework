@@ -1,0 +1,65 @@
+{
+  "created_at": "2026-02-20T08:36:29.742083Z",
+  "random_state": 42,
+  "task": "Permutation diagnostic (nested CV) on TRAIN-only subset from S9",
+  "target": {
+    "TARGET_COL": "typ_zawalu",
+    "classes_included": [
+      "STEMI",
+      "NSTEMI"
+    ],
+    "positive_class": "STEMI",
+    "n_samples_after_filtering": 57,
+    "positive_rate_after_filtering": 0.43859649122807015,
+    "n_samples_used": 45,
+    "positive_rate_used": 0.4444444444444444
+  },
+  "inputs": {
+    "processed_dataset.csv": "/content/processed_dataset.csv",
+    "features_used_FULL.csv": "/content/features_used_FULL.csv",
+    "features_used_CLINICAL.csv": "/content/features_used_CLINICAL.csv",
+    "features_used_BIOMARKERS.csv": "/content/features_used_BIOMARKERS.csv",
+    "audit_nonnumeric_features.csv": null,
+    "S9_locked_split_indices.csv": "/content/S9_locked_split_indices.csv"
+  },
+  "cv": {
+    "outer": 5,
+    "inner": 5,
+    "n_perm": 500,
+    "checkpoint_every": 10,
+    "max_perms_per_run": 50,
+    "outer_splits_mode": "fixed",
+    "outer_splits_fixed_across_true_and_perm": true
+  },
+  "models": [
+    "LR_L1",
+    "LR_ELNET",
+    "SVM_REG",
+    "RF_SHALLOW"
+  ],
+  "rfe": {
+    "enabled": false,
+    "n_features_to_select": 10
+  },
+  "runtime": {
+    "python": "3.12.12",
+    "sklearn": "1.6.1",
+    "n_jobs_grid": 1
+  },
+  "outputs": {
+    "variant_matrix_diagnostics": "/content/results/S10_permutation_diagnostic/tables/S10_variant_matrix_diagnostics.csv",
+    "master_true": "/content/results/S10_permutation_diagnostic/tables/S10_MASTER__TRUE.csv",
+    "master_perm": "/content/results/S10_permutation_diagnostic/tables/S10_MASTER__PERM.csv",
+    "master_all": "/content/results/S10_permutation_diagnostic/tables/S10_MASTER__ALL.csv",
+    "master_summary": "/content/results/S10_permutation_diagnostic/tables/S10_MASTER__SUMMARY.csv"
+  },
+  "notes": [
+    "S10 uses the same target definition and class filtering as S9.",
+    "S10 uses the same governed feature lists as S9 (features_used_*.csv).",
+    "If TRAIN-only is enabled, S10 uses exactly the TRAIN indices from S9 (locked test excluded).",
+    "Hyperparameter tuning is performed only within the training portion of each outer fold (nested CV).",
+    "AUC/MCC are computed with NaN-safe guards when a fold has only one class (common under permutation).",
+    "SVM uses decision_function for AUC (probability=False) for stability/speed in Colab.",
+    "Permutation results are appended after each permutation and run is batch-limited for Colab stability."
+  ]
+}
