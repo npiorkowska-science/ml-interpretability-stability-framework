@@ -1,0 +1,6 @@
+variant,reason,n,stage
+CLINICAL,all_missing_in_df_task,3,S2_missingness_constant
+CLINICAL,missing_gt_0.95,1,S2_missingness_constant
+FULL,all_missing_in_df_task,3,S2_missingness_constant
+FULL,missing_gt_0.95,1,S2_missingness_constant
+BIOMARKERS,triage_auc_ge_0.98,1,S2_biomarkers_triage_blacklist

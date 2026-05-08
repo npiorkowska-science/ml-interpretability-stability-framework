@@ -1,0 +1,4 @@
+variant,n_before,n_after,n_dropped,n_kept
+FULL,73,69,4,69
+CLINICAL,62,58,4,58
+BIOMARKERS,11,10,1,10

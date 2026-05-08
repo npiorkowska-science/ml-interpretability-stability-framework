@@ -1,0 +1,94 @@
+{
+  "timestamp_utc": "2026-02-19T16:37:38.268759+00:00",
+  "task": {
+    "labels_allowed": [
+      "STEMI",
+      "NSTEMI"
+    ],
+    "positive_label": "STEMI"
+  },
+  "n_df_task": 57,
+  "pos_rate": 0.43859649122807015,
+  "variants_final_sizes": {
+    "FULL": 69,
+    "CLINICAL": 58,
+    "BIOMARKERS": 10
+  },
+  "artifacts": {
+    "nestedcv_results_all_variants": {
+      "name": "nestedcv_results_all_variants.csv",
+      "exists": true,
+      "bytes": 7940
+    },
+    "nestedcv_oof_probs_all_variants": {
+      "name": "nestedcv_oof_probs_all_variants.csv",
+      "exists": true,
+      "bytes": 26190
+    },
+    "nestedcv_bestparams_all_variants": {
+      "name": "nestedcv_bestparams_all_variants.csv",
+      "exists": true,
+      "bytes": 6281
+    },
+    "outer_folds_indices": {
+      "name": "outer_folds_indices.csv",
+      "exists": true,
+      "bytes": 3581
+    },
+    "winner_model_by_variant": {
+      "name": "winner_model_by_variant.csv",
+      "exists": true,
+      "bytes": 468
+    },
+    "oof_calibration_summary": {
+      "name": "oof_calibration_summary.csv",
+      "exists": true,
+      "bytes": 1133
+    },
+    "oof_calibration_curve": {
+      "name": "oof_calibration_curve.csv",
+      "exists": true,
+      "bytes": 5185
+    },
+    "oof_dca_curves": {
+      "name": "oof_dca_curves.csv",
+      "exists": true,
+      "bytes": 59608
+    },
+    "governance_summary": {
+      "name": "S2_governance_summary.csv",
+      "exists": true,
+      "bytes": 100
+    },
+    "governance_breakdown": {
+      "name": "S2_governance_breakdown.csv",
+      "exists": true,
+      "bytes": 296
+    },
+    "leakage_like_flags": {
+      "name": "S2_leakage_like_perf_flags.csv",
+      "exists": true,
+      "bytes": 1934
+    },
+    "biomarkers_triage": {
+      "name": "S2_biomarkers_univariate_triage.csv",
+      "exists": true,
+      "bytes": 672
+    },
+    "biomarkers_blacklist": {
+      "name": "S2_biomarkers_blacklist.csv",
+      "exists": true,
+      "bytes": 51
+    },
+    "all_missing_drop_audit": {
+      "name": "S2_all_missing_drop_audit.csv",
+      "exists": true,
+      "bytes": 4234
+    },
+    "fold_allmissing_drop_audit": {
+      "name": "S2_fold_allmissing_drop_audit.csv",
+      "exists": true,
+      "bytes": 1
+    }
+  }
+}

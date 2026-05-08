@@ -1,0 +1,134 @@
+[
+  {
+    "file": "package_versions.json",
+    "exists": true,
+    "bytes": 191,
+    "sha256": "d693cbe999d84fcdd850c4a1a8218b74e6f1a0de6064990c8f5ac7259619a0b9"
+  },
+  {
+    "file": "S2_config_snapshot.json",
+    "exists": true,
+    "bytes": 2222,
+    "sha256": "6d5d7e4c10d3cf53ec454d6484c43444ed5dbe67edd06c59e098470a838694eb"
+  },
+  {
+    "file": "S2_leakage_sanity_flags.csv",
+    "exists": true,
+    "bytes": 4072,
+    "sha256": "8226bfbd93bbc35ac9b5a789ff1d15d416d4a27c4adbfba5acca58acb46751cf"
+  },
+  {
+    "file": "S2_all_missing_drop_audit.csv",
+    "exists": true,
+    "bytes": 4234,
+    "sha256": "a6570fc5b9ab7d9a18f84a24f82b6fa3f4f0ea6ecd8613c3c411759343f1ccd9"
+  },
+  {
+    "file": "S2_biomarkers_univariate_triage.csv",
+    "exists": true,
+    "bytes": 672,
+    "sha256": "e6f678900f0445ae75d13284d882dd1f6306a039d00723fdfef3c077b29f3d00"
+  },
+  {
+    "file": "S2_biomarkers_blacklist.csv",
+    "exists": true,
+    "bytes": 51,
+    "sha256": "678dc17a2130603559787d69685877301154b198ca3287a81c0671dda4128602"
+  },
+  {
+    "file": "S2_governance_summary.csv",
+    "exists": true,
+    "bytes": 100,
+    "sha256": "71ff25d2851a3682b05646c993e0fcefe74fd07be0853ef53f521e8cc5cc3083"
+  },
+  {
+    "file": "features_used_FULL.csv",
+    "exists": true,
+    "bytes": 1343,
+    "sha256": "4de1010ac61b7f16680beff3289b4f6dd038e5642b10eaf724f482447c44cd88"
+  },
+  {
+    "file": "features_used_CLINICAL.csv",
+    "exists": true,
+    "bytes": 1359,
+    "sha256": "ceb099c137a6b0b2aac665e8a6c48edeab7794caba3b13c6aa2a226b4c0fd855"
+  },
+  {
+    "file": "features_used_BIOMARKERS.csv",
+    "exists": true,
+    "bytes": 270,
+    "sha256": "eb6b8bbb32ab9e17c1792e8e18e6b754c6965b44610fb3570394e3139a6ca124"
+  },
+  {
+    "file": "nestedcv_results_all_variants.csv",
+    "exists": true,
+    "bytes": 7940,
+    "sha256": "358e4e2e863b64f7f8a11bd006c1cae425d9b2dac4ac8e82dd691d25983e264d"
+  },
+  {
+    "file": "nestedcv_oof_probs_all_variants.csv",
+    "exists": true,
+    "bytes": 26190,
+    "sha256": "c5ee6e5b83845cc6c504a35eda7e66700f60ca7d86256c424f3d76258477a8cc"
+  },
+  {
+    "file": "nestedcv_bestparams_all_variants.csv",
+    "exists": true,
+    "bytes": 6281,
+    "sha256": "950615e46d81450bc316e14510331be8f5859a67e6b52c2e4efb2adac37f4227"
+  },
+  {
+    "file": "outer_folds_indices.csv",
+    "exists": true,
+    "bytes": 3581,
+    "sha256": "1ce6ebeb77666bab3bb71b81e413b6ee5a39411bf0738b4858da615dd207beb3"
+  },
+  {
+    "file": "winner_model_by_variant.csv",
+    "exists": true,
+    "bytes": 468,
+    "sha256": "fd74d440ce34a801acf5b1b90221fdda74f4cb5936edfd6cdc82ef3fff15b35e"
+  },
+  {
+    "file": "oof_calibration_summary.csv",
+    "exists": true,
+    "bytes": 1133,
+    "sha256": "276501aef1f75688c76924f3ac6414a5ebc2a16ed588737d23a1072d61133b6e"
+  },
+  {
+    "file": "oof_calibration_curve.csv",
+    "exists": true,
+    "bytes": 5185,
+    "sha256": "e3dc70d5d66f4f02665f0433f2c7741d750f1598a8fd244195807f95276d197f"
+  },
+  {
+    "file": "oof_dca_curves.csv",
+    "exists": true,
+    "bytes": 59608,
+    "sha256": "1e31dc78acea3ed5ac36caa4b1ebf6036e60e5bf37f64f08f04db75a0c5f66bc"
+  },
+  {
+    "file": "fold_metrics_summary_by_variant_model.csv",
+    "exists": true,
+    "bytes": 7161,
+    "sha256": "85c5fa38e27108439c13c71721895d88fbc44221bd1bcfa6a485bce776db701d"
+  },
+  {
+    "file": "winner_oof_metrics_with_bootstrap_ci.csv",
+    "exists": true,
+    "bytes": 924,
+    "sha256": "cf56c3218c8f6a3bc0dd93db3783c098ac25c67ef52e09ee0bb8e2b833c1dcb5"
+  },
+  {
+    "file": "winner_oof_roc_curve_points.csv",
+    "exists": true,
+    "bytes": 1874,
+    "sha256": "707a9cc37e7f14653b57f973076cabbd6c295cfee30cfdf030ad8a4b03b39e30"
+  },
+  {
+    "file": "winner_oof_pr_curve_points.csv",
+    "exists": true,
+    "bytes": 7178,
+    "sha256": "6fdb8dc1c5508b9381031f1cb67c15b8f05e2d978bb1e453f2034f1bb441555a"
+  }
+]
