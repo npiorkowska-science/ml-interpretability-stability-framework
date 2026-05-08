@@ -1,0 +1,5 @@
+{
+  "threshold_note": "Decision thresholds are exploratory and derived from internal cross-validation (selected on K-1 outer folds and evaluated on the held-out outer fold). Any fixed clinical threshold requires external/prospective validation prior to clinical use.",
+  "calibration_note": "Calibration diagnostics are computed using out-of-fold predictions. Platt scaling and isotonic regression are implemented via cross-fitting across outer folds to avoid fitting the calibrator on the same fold used for evaluation.",
+  "reliability_note": "Reliability curves are plotted using a small number of fixed probability bins (default: 5) and annotated with bin sample sizes to improve interpretability under limited N."
+}

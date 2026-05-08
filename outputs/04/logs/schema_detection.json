@@ -1,0 +1,30 @@
+{
+  "oof_path": "/content/nestedcv_oof_probs_all_variants.csv",
+  "winners_path": "/content/winner_model_by_variant.csv",
+  "oof_shape": [
+    684,
+    6
+  ],
+  "winners_shape": [
+    3,
+    8
+  ],
+  "oof_columns": [
+    "variant",
+    "outer_fold",
+    "model",
+    "row_id",
+    "y_true",
+    "y_prob"
+  ],
+  "winners_columns": [
+    "variant",
+    "model",
+    "roc_auc_mean",
+    "roc_auc_sd",
+    "brier_mean",
+    "brier_sd",
+    "auprc_mean",
+    "auprc_sd"
+  ]
+}
