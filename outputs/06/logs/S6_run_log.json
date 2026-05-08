@@ -1,0 +1,38 @@
+{
+  "created_at": "2026-02-19T17:08:22.367133Z",
+  "random_state": 42,
+  "cv_outer": {
+    "type": "StratifiedKFold",
+    "n_splits": 5,
+    "shuffle": true,
+    "random_state": 42
+  },
+  "inputs": {
+    "processed_dataset.csv": "/content/processed_dataset.csv",
+    "winner_model_by_variant.csv": "/content/winner_model_by_variant.csv",
+    "nestedcv_bestparams_all_variants.csv": "/content/nestedcv_bestparams_all_variants.csv",
+    "features_used_FULL.csv": "/content/features_used_FULL.csv",
+    "features_used_CLINICAL.csv": "/content/features_used_CLINICAL.csv",
+    "features_used_BIOMARKERS.csv": "/content/features_used_BIOMARKERS.csv",
+    "audit_nonnumeric_features.csv": null
+  },
+  "target": {
+    "TARGET_COL": "typ_zawalu",
+    "task": "STEMI vs NSTEMI (positive=STEMI)",
+    "n_samples": 57,
+    "positive_rate": 0.43859649122807015
+  },
+  "notes": [
+    "S6 is a diagnostic leakage/sensitivity notebook using fixed winner hyperparameters from S2.",
+    "Hyperparameters are parsed from best_params JSON in nestedcv_bestparams_all_variants.csv.",
+    "Binary text predictors are mapped to 0/1; all-NaN and constant predictors are removed before sklearn."
+  ],
+  "outputs": {
+    "tables_dir": "/content/results/S6_leakage_audit/tables",
+    "figures_dir": "/content/results/S6_leakage_audit/figures",
+    "logs_dir": "/content/results/S6_leakage_audit/logs",
+    "sanity_csv": "/content/results/S6_leakage_audit/tables/S6_sanity_check_vs_S2_FINAL.csv",
+    "summary_csv": "/content/results/S6_leakage_audit/tables/S6_cross_variant_summary.csv",
+    "figure": "/content/results/S6_leakage_audit/figures/S6_auc_diagnostic.png"
+  }
+}
