@@ -1,0 +1,36 @@
+{
+  "created_at": "2026-02-19T18:04:17.266737Z",
+  "random_state": 42,
+  "target": {
+    "TARGET_COL": "typ_zawalu",
+    "task": "STEMI vs NSTEMI (positive=STEMI)",
+    "n_samples_after_filtering": 57,
+    "positive_rate": 0.43859649122807015
+  },
+  "cv": {
+    "outer": 5,
+    "inner": 5
+  },
+  "rfe": {
+    "enabled": false,
+    "n_select_default": 10
+  },
+  "inputs": {
+    "processed_dataset.csv": "/content/processed_dataset.csv",
+    "features_used_FULL.csv": "/content/features_used_FULL.csv",
+    "features_used_CLINICAL.csv": "/content/features_used_CLINICAL.csv",
+    "features_used_BIOMARKERS.csv": "/content/features_used_BIOMARKERS.csv",
+    "audit_nonnumeric_features.csv": null
+  },
+  "outputs": {
+    "S8_variant_matrix_diagnostics.csv": "/content/results/S8/tables/S8_variant_matrix_diagnostics.csv",
+    "S8_feature_reduction_summary.csv": "/content/results/S8/tables/S8_feature_reduction_summary.csv",
+    "S8_nestedcv_results_revised.csv": "/content/results/S8/tables/S8_nestedcv_results_revised.csv",
+    "S8_revised_winner_by_variant.csv": "/content/results/S8/tables/S8_revised_winner_by_variant.csv"
+  },
+  "notes": [
+    "S8 fixed: binary recoding (YES/NO/TAK/NIE) performed before numeric coercion (S9-consistent).",
+    "Dropped features are those that are all-NaN or constant after coercion within the filtered dataset.",
+    "Nested CV used for unbiased model selection and performance estimation (internal validation)."
+  ]
+}
