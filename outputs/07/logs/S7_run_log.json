@@ -1,0 +1,38 @@
+{
+  "created_at": "2026-02-19T17:20:12.827691Z",
+  "random_state": 42,
+  "cv_outer": {
+    "type": "StratifiedKFold",
+    "n_splits": 5,
+    "shuffle": true,
+    "random_state": 42
+  },
+  "inputs": {
+    "processed_dataset.csv": "/content/processed_dataset.csv",
+    "winner_model_by_variant.csv": "/content/winner_model_by_variant.csv",
+    "nestedcv_bestparams_all_variants.csv": "/content/nestedcv_bestparams_all_variants.csv",
+    "features_used_FULL.csv": "/content/features_used_FULL.csv",
+    "features_used_CLINICAL.csv": "/content/features_used_CLINICAL.csv",
+    "features_used_BIOMARKERS.csv": "/content/features_used_BIOMARKERS.csv",
+    "audit_nonnumeric_features.csv": null
+  },
+  "target": {
+    "TARGET_COL": "typ_zawalu",
+    "task": "STEMI vs NSTEMI (positive=STEMI)",
+    "n_samples": 57,
+    "positive_rate": 0.43859649122807015
+  },
+  "notes": [
+    "S7 performs an ablation study using fixed winner models/hyperparameters from S2.",
+    "Feature removal order is determined by outer-fold permutation importance (test folds only).",
+    "All-missing and constant predictors are removed prior to modeling to avoid imputation artifacts."
+  ],
+  "outputs": {
+    "tables_dir": "/content/results/S7_ablation/tables",
+    "figures_dir": "/content/results/S7_ablation/figures",
+    "logs_dir": "/content/results/S7_ablation/logs",
+    "diagnostics": "/content/results/S7_ablation/tables/S7_variant_matrix_diagnostics.csv",
+    "baseline_metrics": "/content/results/S7_ablation/tables/S7_baseline_metrics.csv",
+    "ablation_all": "/content/results/S7_ablation/tables/S7_ablation_rerunS2_all_variants.csv"
+  }
+}
