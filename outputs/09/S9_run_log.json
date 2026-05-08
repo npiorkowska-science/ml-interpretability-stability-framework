@@ -1,0 +1,47 @@
+{
+  "created_at": "2026-02-19T19:08:06.834666Z",
+  "random_state": 42,
+  "target": {
+    "TARGET_COL": "typ_zawalu",
+    "task": "STEMI vs NSTEMI (positive=STEMI)",
+    "n_samples_after_filtering": 57,
+    "positive_rate": 0.43859649122807015
+  },
+  "split": {
+    "TEST_SIZE": 0.2,
+    "n_train": 45,
+    "n_test_locked": 12,
+    "split_file": "/content/results/S9_locked_test/tables/S9_locked_split_indices.csv"
+  },
+  "cv": {
+    "outer": 5,
+    "inner": 5,
+    "calibration_cv": 5
+  },
+  "rfe": {
+    "enabled": true,
+    "n_select_default": 10
+  },
+  "calibration": {
+    "enabled": true,
+    "method": "isotonic"
+  },
+  "inputs": {
+    "processed_dataset.csv": "/content/processed_dataset.csv",
+    "features_used_FULL.csv": "/content/features_used_FULL.csv",
+    "features_used_CLINICAL.csv": "/content/features_used_CLINICAL.csv",
+    "features_used_BIOMARKERS.csv": "/content/features_used_BIOMARKERS.csv",
+    "audit_nonnumeric_features.csv": null
+  },
+  "outputs": {
+    "S9_variant_matrix_diagnostics.csv": "/content/results/S9_locked_test/tables/S9_variant_matrix_diagnostics.csv",
+    "S9_locked_split_indices.csv": "/content/results/S9_locked_test/tables/S9_locked_split_indices.csv",
+    "S9_locked_test_results.csv": "/content/results/S9_locked_test/tables/S9_locked_test_results.csv",
+    "S9_trainonly_selection_details.csv": "/content/results/S9_locked_test/tables/S9_trainonly_selection_details.csv"
+  },
+  "notes": [
+    "Locked test split is never used for tuning, feature selection, calibration, or threshold selection.",
+    "Model selection and hyperparameter tuning are performed within TRAIN only using nested CV.",
+    "Threshold is selected on TRAIN only using OOF predictions; if calibration is enabled, threshold selection uses calibrated OOF probabilities."
+  ]
+}
