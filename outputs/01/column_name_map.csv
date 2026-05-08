@@ -1,0 +1,118 @@
+raw_column,clean_column
+Nr pacjenta,nr_pacjenta
+Internal ID,internal_id
+Patient ID,patient_id
+Nr na próbce,nr_na_probce
+Typ zawału,typ_zawalu
+Data pobrania,data_pobrania
+Płeć,plec
+Data urodzenia,data_urodzenia
+EMMPRIN,emmprin
+92 kDa               pro-MMP-9,92_kda_pro_mmp_9
+72 kDa pro-MMP-2,72_kda_pro_mmp_2
+Wyniki Klotho pg/ml,wyniki_klotho_pg_ml
+Wyniki FGF23 pg/ml,wyniki_fgf23_pg_ml
+TNFalfa [pg/ml],tnfalfa_pg_ml
+Il-6 [pg/ml],il_6_pg_ml
+Wiek w momencie zbiórki,wiek_w_momencie_zbiorki
+Waga      (kg),waga_kg
+Wzrost (cm),wzrost_cm
+BMI,bmi
+Obwód bioder,obwod_bioder
+Otyłość BMI >30,otylosc_bmi_30
+Czy pali?,czy_pali
+Ile lat pali?,ile_lat_pali
+Ilość paczek dziennie,ilosc_paczek_dziennie
+Ile lat nie pali?,ile_lat_nie_pali
+Rodzice,rodzice
+Rodzeństwo,rodzenstwo
+Cukrzyca  (DM),cukrzyca_dm
+DM - ile lat?,dm_ile_lat
+DM -leczenie,dm_leczenie
+ (CAD),cad
+CAD - ile lat?,cad_ile_lat
+CCS,ccs
+"Zawał: 0 nigdy, 1 teraz, 2 kiedyś, 3 kiedyś i teraz, a- steMI, b-nsteMI. c- ua",zawal_0_nigdy_1_teraz_2_kiedys_3_kiedys_i_teraz_a_stemi_b_nstemi_c_ua
+Data obecnego zawału,data_obecnego_zawalu
+Data przeszłych zawałów,data_przeszlych_zawalow
+Przezskórna interwencja wieńcowa (PCI),przezskorna_interwencja_wiencowa_pci
+Data obecnego PCI,data_obecnego_pci
+Daty przeszłych PCI,daty_przeszlych_pci
+PCI naczynie obecne,pci_naczynie_obecne
+BMS/DES,bms_des
+Pomostowanie aortalNo-wieńcowe (CABG),pomostowanie_aortalno_wiencowe_cabg
+Data CABG,data_cabg
+Pomosty,pomosty
+Wrodzona wada serca,wrodzona_wada_serca
+Jaka?,jaka
+Nabyta wada serca,nabyta_wada_serca
+Jaka?.1,jaka_1
+Zapalenie MIęśnia serca,zapalenie_miesnia_serca
+Data zaplenie serca,data_zaplenie_serca
+Nadciśnienie tętnicze (NT),nadcisnienie_tetnicze_nt
+Ile lat?,ile_lat
+Przewlekła niewydolNość serca (CHF),przewlekla_niewydolnosc_serca_chf
+Ile lat?.1,ile_lat_1
+NYHA,nyha
+Frakcja wyrzutowa lewej komory serca (LVEF),frakcja_wyrzutowa_lewej_komory_serca_lvef
+Zaburzenia rytmu,zaburzenia_rytmu
+Rodzaj zaburzeń,rodzaj_zaburzen
+Ile lat?.2,ile_lat_2
+MIażdżyca kończyn dolnych,miazdzyca_konczyn_dolnych
+Ile lat? Miżdżyca kończyn,ile_lat_mizdzyca_konczyn
+MIażdżyca tętnic szyjnych,miazdzyca_tetnic_szyjnych
+Ile lat? Miażdżyca t. szyjnych,ile_lat_miazdzyca_t_szyjnych
+Zapalenie żył kończyn dolnych/ Zakrzepica,zapalenie_zyl_konczyn_dolnych_zakrzepica
+Data zapaenia żył,data_zapaenia_zyl
+Zatorowość płucna,zatorowosc_plucna
+Data zatorowości płuc,data_zatorowosci_pluc
+Stymulator,stymulator
+ICD implantable cardioverter defibrillator,icd_implantable_cardioverter_defibrillator
+CRT-D device,crt_d_device
+Ile lat? CRT-D,ile_lat_crt_d
+GFR MIn.,gfr_min
+Kidnej Failure<15 ml/MIn/m2,kidnej_failure_15_ml_min_m2
+Kidnej insuficiency <60 ml/MIn/m2,kidnej_insuficiency_60_ml_min_m2
+Troponiny max.,troponiny_max
+Cholesterol całkowity (TC),cholesterol_calkowity_tc
+LDL,ldl
+HDL,hdl
+Trijglicerydy (TG),trijglicerydy_tg
+NoN-HDL(całkowity -hdl,non_hdl_calkowity_hdl
+Kwas moczowy,kwas_moczowy
+HbA1C,hba1c
+Zaburzenia homeostazy glukozy >6,zaburzenia_homeostazy_glukozy_6
+Glukoza max. Mg/dl,glukoza_max_mg_dl
+hsCRP max.,hscrp_max
+CRP>5 zapalenie,crp_5_zapalenie
+AlbumIny [g/L],albuminy_g_l
+RBC przyjęcie,rbc_przyjecie
+Ht przyjęcie,ht_przyjecie
+Hb przyjęcie,hb_przyjecie
+WBC przyjęcie,wbc_przyjecie
+Leukocytoza przyjęcie >10000,leukocytoza_przyjecie_10000
+MPV przyjęcie,mpv_przyjecie
+PCT przyjęcie,pct_przyjecie
+PDW przyjęcie,pdw_przyjecie
+P-LCR przyjęcie,p_lcr_przyjecie
+PLT przyjęcie,plt_przyjecie
+RBC wypis,rbc_wypis
+Ht wypis,ht_wypis
+Hb wypis,hb_wypis
+WBC wypis,wbc_wypis
+MPV wypis,mpv_wypis
+PCT wypis,pct_wypis
+PDW wypis,pdw_wypis
+P-LCR wypis,p_lcr_wypis
+PLT wypis,plt_wypis
+ASA,asa
+klop,klop
+NoAC,noac
+ACE-I,ace_i
+ARB,arb
+BB,bb
+Statyna,statyna
+MIlurit/diuretyk,milurit_diuretyk
+Pętlowy,petlowy
+Krwawienie,krwawienie
+Brilique,brilique
