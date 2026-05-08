@@ -40,14 +40,3 @@ We define interpretable failure modes:
 - **Convergent signal** – agreement across interpretability dimensions  
 
 ---
-
-## Repository Structure
-
-```text
-.
-├── S1_... S10_...          # model training and evaluation
-├── S15_Interpretability_Unified_Framework.ipynb
-├── S16_Interpretability_Contradictions_and_Typology.ipynb
-├── data/                  # input data (not included if restricted)
-├── outputs/               # generated tables and figures
-└── README.md
