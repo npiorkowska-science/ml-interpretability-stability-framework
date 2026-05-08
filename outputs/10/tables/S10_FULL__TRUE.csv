@@ -1,0 +1,5 @@
+variant,model,auc_mean,auc_sd,mcc_mean,mcc_sd,use_rfe_effective,n_select_effective,label_type,perm_id
+FULL,LR_L1,1.0,0.0,0.96,0.08944271909999157,False,,true,-1
+FULL,LR_ELNET,1.0,0.0,0.0,0.0,False,,true,-1
+FULL,SVM_REG,0.95,0.04999999999999999,0.7813594362117866,0.27945802780292217,False,,true,-1
+FULL,RF_SHALLOW,0.99,0.02236067977499787,0.8743416490252569,0.11470985561294683,False,,true,-1
