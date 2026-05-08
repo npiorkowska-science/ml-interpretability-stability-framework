@@ -1,0 +1,8 @@
+{
+  "variants": [
+    "FULL",
+    "CLINICAL",
+    "BIOMARKERS"
+  ],
+  "input_file": "S15_feature_reliability_table.csv"
+}

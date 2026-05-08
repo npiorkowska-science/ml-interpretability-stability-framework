@@ -1,0 +1,4 @@
+variant,unresolved_reason,n_features
+BIOMARKERS,multiple_missing_components,1
+CLINICAL,multiple_missing_components,23
+FULL,multiple_missing_components,34
