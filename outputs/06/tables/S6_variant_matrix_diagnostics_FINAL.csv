@@ -1,0 +1,4 @@
+variant,n_governed_present,n_binary_recoded,n_dropped_empty_or_constant,n_used_matrix,n_all_nan_after_coercion,n_constant_le_1_unique
+BIOMARKERS,10,0,0,10,0,0
+CLINICAL,58,21,15,43,15,15
+FULL,69,21,15,54,15,15

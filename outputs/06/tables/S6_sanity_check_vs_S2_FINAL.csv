@@ -1,0 +1,4 @@
+variant,auc_oof_diagnostic,ref_auc_s2_mean,abs_auc_diff,pass_auc_tol,n_features_effective_used,n_binary_recoded,n_dropped_empty_or_constant,winner_model
+BIOMARKERS,0.914375,0.9495238095238095,0.0351488095238095,True,10,0,0,RF
+CLINICAL,0.6225,0.5942857142857143,0.028214285714285747,True,43,21,15,RF
+FULL,1.0,0.9942857142857144,0.005714285714285561,True,54,21,15,RF

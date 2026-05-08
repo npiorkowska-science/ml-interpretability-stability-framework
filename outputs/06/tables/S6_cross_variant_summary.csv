@@ -1,0 +1,4 @@
+variant,winner_model,n_features_effective,auc_oof_diagnostic,top_univariate_auc,top_perm_auc_drop
+BIOMARKERS,RF,10,0.914375,0.8175,0.28568253968253965
+CLINICAL,RF,43,0.6225,0.66625,0.004730158730158708
+FULL,RF,54,1.0,0.985,0.1931111111111111

@@ -1,0 +1,22 @@
+feature,mode,unique_raw,unique_norm,unmapped_norm
+ace_i,yes_no,"['No', 'Yes']","['no', 'yes']",[]
+arb,yes_no,"['No', 'Yes']","['no', 'yes']",[]
+bb,yes_no,"['No', 'Yes']","['no', 'yes']",[]
+cad,yes_no,"['No', 'Yes']","['no', 'yes']",[]
+crp_5_zapalenie,yes_no,"['No', 'Yes', 'yes']","['no', 'yes']",[]
+crt_d_device,yes_no,"['No', 'Y']","['no', 'y']",[]
+cukrzyca_dm,yes_no,"['No', 'Yes']","['no', 'yes']",[]
+czy_pali,bool,"[False, True]",,
+klop,yes_no,"['No', 'Yes']","['no', 'yes']",[]
+krwawienie,yes_no,"['No', 'Yes']","['no', 'yes']",[]
+leukocytoza_przyjecie_10000,yes_no,"['No', 'Yes']","['no', 'yes']",[]
+nabyta_wada_serca,yes_no,"['No', 'Yes']","['no', 'yes']",[]
+nadcisnienie_tetnicze_nt,yes_no,"['No', 'Yes']","['no', 'yes']",[]
+noac,yes_no,"['No', 'Yes']","['no', 'yes']",[]
+otylosc_bmi_30,bool,"[False, True]",,
+petlowy,yes_no,"['No', 'Yes']","['no', 'yes']",[]
+stymulator,yes_no,"['No', 'Yes']","['no', 'yes']",[]
+wrodzona_wada_serca,yes_no,"['No', 'Yes']","['no', 'yes']",[]
+zaburzenia_homeostazy_glukozy_6,yes_no,"['No', 'Yes']","['no', 'yes']",[]
+zaburzenia_rytmu,yes_no,"['No', 'Yes']","['no', 'yes']",[]
+zapalenie_miesnia_serca,yes_no,"['No', 'Yes']","['no', 'yes']",[]
