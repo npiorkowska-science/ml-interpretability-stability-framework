@@ -1,0 +1,4 @@
+variant,selected_model,selected_rfe_requested,selected_rfe_effective,n_select_effective,train_outer_auc_mean_selected,train_thr_mcc_selected_on_oof,train_mcc_at_thr_on_oof,thr_source,refit_bestparams_fulltrain,refit_inner_auc_mean,calibration
+BIOMARKERS,RF_SHALLOW,False,False,,0.95,0.33,0.73,calibrated_oof,"{""clf__max_depth"": 2, ""clf__max_features"": ""sqrt"", ""clf__min_samples_leaf"": 5, ""clf__n_estimators"": 600}",0.96,isotonic
+CLINICAL,SVM_REG,True,True,10.0,0.5900000000000001,0.65,0.24112141108520607,calibrated_oof,"{""clf__C"": 100.0, ""clf__gamma"": ""scale"", ""clf__kernel"": ""linear""}",0.62,isotonic
+FULL,LR_L1,False,False,,1.0,0.38,0.9557518184453213,calibrated_oof,"{""clf__C"": 0.1668100537200059}",1.0,isotonic

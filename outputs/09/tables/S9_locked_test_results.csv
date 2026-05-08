@@ -1,0 +1,4 @@
+variant,selected_model,locked_test_auc,locked_test_brier,locked_test_mcc_at_train_thr,trainonly_outer_auc_mean,trainonly_thr_mcc,thr_source,n_train,n_test_locked,n_features_effective_input,n_feature_names
+BIOMARKERS,RF_SHALLOW,0.8857142857142857,0.10504175199101941,0.8451542547285166,0.95,0.33,calibrated_oof,45,12,10,10
+CLINICAL,SVM_REG_RFE,0.6285714285714286,0.2344426707630193,0.0,0.5900000000000001,0.65,calibrated_oof,45,12,42,42
+FULL,LR_L1,1.0,0.00030236347262531697,1.0,1.0,0.38,calibrated_oof,45,12,53,53
